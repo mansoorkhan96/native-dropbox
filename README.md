@@ -14,11 +14,10 @@ This will give you the `authorization_code` needed to retrieve a `refresh_token`
 
 Giving you access to the `refresh_token` needed in the `DROPBOX_REFRESH_TOKEN` indicated below . The other elements are available in your Dropbox App.
 
-.env.
+`.env`
 
 ```env
 DROPBOX_APP_KEY=
 DROPBOX_APP_SECRET=
 DROPBOX_REFRESH_TOKEN=
-DROPBOX_TOKEN_URL=https://${DROPBOX_APP_KEY}:${DROPBOX_APP_SECRET}@api.dropbox.com/oauth2/token
 ```
